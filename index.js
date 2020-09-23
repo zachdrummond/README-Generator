@@ -31,14 +31,12 @@ function init() {
             type: "input",
             name: "title",
             message: questions[0],
-            default: "Title",
-
+            default: "Title"
         }
     ]).then((response) => {
         const markdown = generateMarkdown(response);
         writeToFile("ReadMe2.md", markdown);
     });
-    // Once you get the answers, you call generateMarkdown with require, pass in the object
 }
 
 // function call to initialize program
