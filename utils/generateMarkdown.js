@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
-
+${data.description}
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -14,22 +14,24 @@ function generateMarkdown(data) {
 * [Questions](#Questions)
   
 ## Installation
-
+${data.installation}
 
 ## Usage
-
+${data.usage}
 
 ## License
-
+${data.license}
 
 ## Contributing
-
+${data.contributing}
 
 ## Tests
-
+${data.tests}
 
 ## Questions
-
+For any questions regarding this application:
+* GitHub Profile: https://github.com/${data.username}
+* Email: ${data.email}
 
 `;
 }

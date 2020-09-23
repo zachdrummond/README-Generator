@@ -1,7 +1,7 @@
-# Banana
+# Title
 
 ## Description
-  
+Description
 
 ## Table of Contents
 * [Installation](#Installation)
@@ -12,20 +12,22 @@
 * [Questions](#Questions)
   
 ## Installation
-
+Install
 
 ## Usage
-
+Use
 
 ## License
-
+License
 
 ## Contributing
-
+Contribute
 
 ## Tests
-
+Test
 
 ## Questions
-
+For any questions regarding this application:
+* GitHub Profile: https://github.com/zachdrummond
+* Email: bob@bob.com
 
