@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
+${getLicenseBadge(data.license)}
+
 ## Description
 ${data.description}
 
@@ -35,6 +37,15 @@ For any questions regarding this application:
 }
 
 module.exports = generateMarkdown;
+
+function getLicenseBadge(licenseChoice){
+
+  if(licenseChoice === "MIT"){
+    return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+  } else if (licenseChoice === "GNU General Public License"){
+    return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+}
+}
 
 function getLicense(licenseChoice) {
 
