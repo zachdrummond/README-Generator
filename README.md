@@ -1,5 +1,48 @@
 # README-Generator
 
+## Table of Contents
+* [Description](#Description)
+* [Links](#Links)
+* [Design Elements](#Design-Elements)
+* [App Preview](#App-Preview)
+* [Credits](#Credits)
+
+## Description
+THis is a command-line application that dynamically generates a professional README.md based on the user's input. A README is fundamental to helping the user understand everything one needs to know in order to use a website properly. This application enables developers to spend more time on their own applications rather than on creating a quality README.
+
+### *Usage*
+1. Enter "node index.js" in your command line.
+
+## Links
+* Video Walkthrough: 
+* GitHub Repository: https://github.com/zachdrummond/README-Generator
+
+## Badge
+
+## Design Elements
+### *JavaScript*
+* Clean User Interface
+* JSON
+* Logical Code Structure
+* Sequential Order
+* Objects
+* Arrays
+* Methods
+* Global and Local Variables
+* Functions
+* Event Listeners
+* if...else Statements
+* for Loops
+* Comments
+
+## App Preview
+![Screenshot]()
+
+## Credits
+* https://www.npmjs.com/package/inquirer
+
+
+
 # Unit 09 Node.js and ES6+ Homework: Good README Generator
 
 When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
