@@ -17,8 +17,8 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, function (error) {
-    if (error) throw error;
+  fs.writeFile(fileName, data, function (err) {
+    if (err) throw err;
   });
 }
 
@@ -51,9 +51,10 @@ function init() {
         default: "Usage Information",
       },
       {
-        type: "input",
+        type: "list",
         name: "license",
         message: questions[4],
+        choices: ["MIT", "GNU General Public License"],
         default: "License",
       },
       {
@@ -72,7 +73,6 @@ function init() {
         type: "input",
         name: "username",
         message: questions[7],
-        default: "",
       },
       {
         type: "input",
