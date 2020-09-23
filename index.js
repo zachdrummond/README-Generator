@@ -4,13 +4,13 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [
-  "What is the title of your application?",
-  "Please provide a description of your application.",
-  "What are the installation instructions?",
-  "Please describe how the user should use your application.",
+  "What is the title of your project?",
+  "Please provide a description of your project.",
+  "What are the steps required to install your project?",
+  "Please provide instructions and examples for using your project.",
   "Which license would you like to choose?",
-  "What are the contribution guidelines?",
-  "What test instructions would you like to give?",
+  "What guidelines would you like to add for how others can contribute to this project?",
+  "What test instructions would you like to offer?",
   "What is your GitHub username?",
   "What is your email?",
 ];
@@ -30,25 +30,25 @@ function init() {
         type: "input",
         name: "title",
         message: questions[0],
-        default: "Title",
+        default: "Title TBD",
       },
       {
         type: "input",
         name: "description",
         message: questions[1],
-        default: "Description",
+        default: "Professional Description TBD",
       },
       {
         type: "input",
         name: "installation",
         message: questions[2],
-        default: "Installation",
+        default: "Installation Instructions",
       },
       {
         type: "input",
         name: "usage",
         message: questions[3],
-        default: "Usage",
+        default: "Usage Information",
       },
       {
         type: "input",
@@ -60,19 +60,19 @@ function init() {
         type: "input",
         name: "contributing",
         message: questions[5],
-        default: "Contributing",
+        default: "Contribution Guidelines",
       },
       {
         type: "input",
         name: "tests",
         message: questions[6],
-        default: "Tests",
+        default: "Test Instructions",
       },
       {
         type: "input",
         name: "username",
         message: questions[7],
-        default: "username",
+        default: "",
       },
       {
         type: "input",

@@ -12,22 +12,22 @@ Description
 * [Questions](#Questions)
   
 ## Installation
-Install
+Installation
 
 ## Usage
-Use
+Usage
 
 ## License
 License
 
 ## Contributing
-Contribute
+Contributing
 
 ## Tests
-Test
+Tests
 
 ## Questions
 For any questions regarding this application:
-* GitHub Profile: https://github.com/zachdrummond
-* Email: bob@bob.com
+* GitHub Profile: https://github.com/username
+* Email: No Email Provided.
 
