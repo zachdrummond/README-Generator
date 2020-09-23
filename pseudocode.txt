@@ -1,0 +1,53 @@
+SETUP
+1. Run `npm init` before installing dependencies.
+2. Install dependencies? (Repo **MUST** include `package.json` with required dependencies.)
+
+GIVEN
+1. A package.json file
+2. An empty function that generates the markdown for the README file
+3. A module that exports the function from #1
+4. An empty array to add for the user
+5. An empty function to write the the README file
+6. An empty function to initialize the README file
+7. A function to call the function in #3
+
+PSEUDOCODE
++ Variables
+- var fs = require("fs");
+- var inquirer = require("inquirer");
+
++ Prompt
+- Title
+- Description
+- Installation Instructions
+- Usage Information
+- Contribution Guidelines
+- Test Instructions
+- License: List of Options
+- GitHub Username
+- Email
+
++ Functions
+- writeToFile()
+  * Title
+    - User Title
+  * Badge for License
+  * Description
+    - User Description
+  * Table of Contents
+    - Links to Sections that take the user to the corresponding section of the README
+  * Installation
+    - User Instructions
+  * Usage
+    - User Usage Information
+  * License
+    - User License Choice that explains which license the application is covered under
+  * Contributing
+    - User Contribution Guidelines
+  * Tests
+    - User Test Instructions
+  * Questions
+    - User GitHub Username
+    - Link to GitHub Profile
+    - User Email
+    - Instructions on how to reach this person with additional questions
