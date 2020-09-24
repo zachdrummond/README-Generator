@@ -19,24 +19,27 @@ This is a command-line application that dynamically generates a professional REA
 * Video Walkthrough: 
 * GitHub Repository: https://github.com/zachdrummond/README-Generator
 
-## Badge
-
 ## Design Elements
 ### *JavaScript - Node.js*
 * Command-Line User Interface
 * Dynamically Generated ReadMe
 * Logical Code Structure
 * Modules and Packages
+* Promises
 * Objects
 * Arrays
 * Methods
 * Global and Local Variables
 * Functions
-* if...else Statements
+* Switch Statements
+* Template Literals
 * Comments
 
 ## App Preview
-![Screenshot]()
+### Command-Line Instructions
+![CLI](./images/commandLineInterface.png)
+### ReadMe
+![ReadMe](./images/ReadMe.png)
 
 ## Credits
 * https://nodejs.org/en/

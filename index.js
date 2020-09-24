@@ -64,7 +64,7 @@ function init() {
           "Mozilla Public License",
           "The Unlicense",
         ],
-        default: "License",
+        default: "MIT License",
       },
       {
         type: "input",
@@ -92,9 +92,10 @@ function init() {
     ])
     .then((response) => {
       const markdown = generateMarkdown(response);
-      writeToFile("ReadMe2.md", markdown);
-    }).catch(function (error){
-      if(error) throw error;
+      writeToFile("README2.md", markdown);
+    })
+    .catch(function (error) {
+      if (error) throw error;
     });
 }
 
