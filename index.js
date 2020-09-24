@@ -54,7 +54,15 @@ function init() {
         type: "list",
         name: "license",
         message: questions[4],
-        choices: ["MIT", "GNU General Public License"],
+        choices: [
+          "Apache License",
+          "Boost Software License",
+          "GNU General Public License",
+          "ISC License",
+          "MIT",
+          "Mozilla Public License",
+          "The Unlicense",
+        ],
         default: "License",
       },
       {
