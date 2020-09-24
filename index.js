@@ -1,3 +1,4 @@
+// importing modules and packages
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -92,6 +93,8 @@ function init() {
     .then((response) => {
       const markdown = generateMarkdown(response);
       writeToFile("ReadMe2.md", markdown);
+    }).catch(function (error){
+      if(error) throw error;
     });
 }
 

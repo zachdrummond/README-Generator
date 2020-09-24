@@ -36,8 +36,7 @@ For any questions or issues regarding this application:
 * Email: ${data.email}`;
 }
 
-module.exports = generateMarkdown;
-
+// Function - Grabs the License Badge based on the User's Choice
 function getLicenseBadge(licenseChoice) {
   if (licenseChoice === "Apache License") {
     return `[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
@@ -56,6 +55,7 @@ function getLicenseBadge(licenseChoice) {
   }
 }
 
+// Function - Grabs the License based on the User's Choice
 function getLicense(licenseChoice) {
   if (licenseChoice === "Apache License") {
     return `[Apache](https://choosealicense.com/licenses/apache-2.0/)`;
@@ -73,3 +73,6 @@ function getLicense(licenseChoice) {
     return `[Unlicense](https://choosealicense.com/licenses/unlicense/)`;
   }
 }
+
+// Exports the Module
+module.exports = generateMarkdown;
