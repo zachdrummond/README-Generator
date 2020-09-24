@@ -22,19 +22,17 @@ This is a command-line application that dynamically generates a professional REA
 ## Badge
 
 ## Design Elements
-### *JavaScript*
-* Clean User Interface
-* JSON
+### *JavaScript - Node.js*
+* Command-Line User Interface
+* Dynamically Generated ReadMe
 * Logical Code Structure
-* Sequential Order
+* Modules and Packages
 * Objects
 * Arrays
 * Methods
 * Global and Local Variables
 * Functions
-* Event Listeners
 * if...else Statements
-* for Loops
 * Comments
 
 ## App Preview

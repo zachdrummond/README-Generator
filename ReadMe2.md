@@ -1,6 +1,6 @@
 # Title TBD
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
 ## Description
 Professional Description TBD
@@ -20,7 +20,7 @@ Installation Instructions
 Usage Information
 
 ## License
-This project is covered under the [ISC](https://choosealicense.com/licenses/isc/) license.
+This project is covered under the [Boost](https://choosealicense.com/licenses/bsl-1.0/) license.
 
 ## Contributing
 Contribution Guidelines
@@ -29,6 +29,6 @@ Contribution Guidelines
 Test Instructions
 
 ## Questions
-For any questions regarding this application:
+For any questions or issues regarding this application:
 * GitHub Profile: https://github.com/
 * Email: No Email Provided.
