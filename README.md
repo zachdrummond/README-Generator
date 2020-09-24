@@ -16,7 +16,7 @@ This is a command-line application that dynamically generates a professional REA
 3. Look for the new README.md file that will be created.
 
 ## Links
-* Video Walkthrough: 
+* Video Walkthrough: https://drive.google.com/file/d/1sKxHpUbq1w7AnPvsmmEihmjxHFfcMpuU/view
 * GitHub Repository: https://github.com/zachdrummond/README-Generator
 
 ## Design Elements
