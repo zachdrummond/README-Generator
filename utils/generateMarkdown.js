@@ -31,7 +31,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-For any questions regarding this application:
+For any questions or issues regarding this application:
 * GitHub Profile: https://github.com/${data.username}
 * Email: ${data.email}`;
 }
